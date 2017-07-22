@@ -1,0 +1,39 @@
+{
+  "name": "learn-commitizen",
+  "version": "0.0.0-development",
+  "description": "learn more about Commitizen by practicing",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palashmon/learn-commitizen.git"
+  },
+  "keywords": [
+    "learn",
+    "commitizen",
+    "practice"
+  ],
+  "author": "Palash Mondal <palashm@live.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palashmon/learn-commitizen/issues"
+  },
+  "homepage": "https://github.com/palashmon/learn-commitizen#readme",
+  "engines": {
+    "node": ">= 7.10.1"
+  },
+  "devDependencies": {
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "semantic-release": "^6.3.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
