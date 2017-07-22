@@ -1,5 +1,9 @@
 module.exports = {
-    sayHello: function() {
+    sayHelloInEnglish: function() {
         return "Hello";
+    },
+
+    sayHelloInSpanish: function() {
+        return "Hola";
     }
 };
