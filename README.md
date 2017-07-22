@@ -1,4 +1,7 @@
 # learn-commitizen
-This is sample repo for learning more about Commitizen by practicing.
+This is sample repo for learning more about [Commitizen](https://commitizen.github.io/cz-cli/) for practice.
 
-Feel free to fork it and play around.
+Main focus:
+- Semantic Release
+- Commitizen
+- cz-conventional-changelog
