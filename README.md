@@ -12,6 +12,18 @@ Main focus:
 - Commitizen
 - cz-conventional-changelog
 
+## Default Commit Message Format
+
+Each commit message consists of a header, a body and a footer. The header has a special format that includes a type, a scope and a subject ([full explanation](https://github.com/conventional-changelog-archived-repos/conventional-changelog-angular/blob/master/convention.md)):
+
+```
+<type>(<scope>): <subject>
+<BLANK LINE>
+<body>
+<BLANK LINE>
+<footer>
+```
+
 ## Contributing
 
 Pull requests are always welcome.  
@@ -26,4 +38,4 @@ Feel free to fork and do as many commits as you want for practice.
 
 ## License
 
-MIT © Palash Mondal
+MIT Â© Palash Mondal
