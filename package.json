@@ -34,5 +34,11 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "release": {
+    "anaylzeCommits": {
+      "minor": ["feat"],
+      "patch": ["fix", "perf", "docs"]
+    }
+  } 
 }
