@@ -5,5 +5,9 @@ module.exports = {
 
   sayHelloInSpanish() {
     return "Hola";
+  },
+
+  sayHelloInFrench() {
+    return "Bonjour";
   }
 };
