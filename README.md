@@ -14,6 +14,23 @@ Main focus:
 - Commitizen
 - cz-conventional-changelog
 
+## Steps
+
+1. Make new changes to repo (add/edit any file).
+2. [Add](https://git-scm.com/docs/git-add) the changes next for staging:
+   ```bash
+   git add .
+   ```
+3. Run the following command and follow the Commitizen steps:
+   ```bash
+   npm run commit
+   ```
+   ![Commitizen](https://cdn.rawgit.com/commitizen/cz-cli/master/meta/screenshots/add-commit.png)
+4. Finally
+   ```bash
+   git push
+   ```	
+
 ## Default Commit Message Format
 
 Each commit message consists of a header, a body and a footer. The header has a special format that includes a type, a scope and a subject ([full explanation](https://github.com/conventional-changelog-archived-repos/conventional-changelog-angular/blob/master/convention.md)):
