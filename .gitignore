@@ -7,3 +7,4 @@ dist
 package/
 
 .vscode/
+package-lock.json
