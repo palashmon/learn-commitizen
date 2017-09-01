@@ -29,7 +29,10 @@
     "commitizen": "2.9.6",
     "cz-conventional-changelog": "2.0.0",
     "semantic-release": "~7.0.1",
-    "webpack": "3.5.5"
+    "webpack": "3.5.5",
+    "chai": "4.1.2",
+    "mocha": "3.5.0",
+    "uuid": "3.1.0"
   },
   "config": {
     "commitizen": {
