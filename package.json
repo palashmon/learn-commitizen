@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node app.js",
         "commit": "git-cz",
-        "test": "mocha --timeout 15000",
+        "mocha": "mocha --timeout 15000",
         "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
     "repository": {
