@@ -8,3 +8,7 @@ package/
 
 .vscode/
 package-lock.json
+variables.env
+variables.env.now
+.eslintrc.json
+.eslintignore
