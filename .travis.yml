@@ -2,17 +2,21 @@ dist: trusty
 sudo: false
 language: node_js
 node_js:
-  - 7
+  - 8
 cache:
   directories:
     - node_modules
-notifications:
-  email: false
-install:
-  - npm install
-after_success:
-  - npm run semantic-release
 branches:
   only:
     - master
     - /^greenkeeper/.*$/
+notifications:
+  email: false
+before_install:
+  - "npm i -g npm@latest"
+install:
+  - npm install
+before_script:
+  - npm prune
+after_success:
+  - npx semantic-release
