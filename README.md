@@ -1,4 +1,4 @@
-# learn-commitizen
+# Learn Commitizen Basics
 
 [![npm version](https://img.shields.io/npm/v/learn-commitizen.svg)](http://npm.im/learn-commitizen)
 [![Greenkeeper badge](https://badges.greenkeeper.io/palashmon/learn-commitizen.svg)](https://greenkeeper.io/)
@@ -8,7 +8,8 @@
 
 This is sample repo for learning more about [Commitizen](https://commitizen.github.io/cz-cli/) for practice.
 
-Main focus:
+## Main focus:
+
 - Semantic Release
 - Commitizen
 - cz-conventional-changelog
