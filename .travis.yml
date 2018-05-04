@@ -1,22 +1,13 @@
-dist: trusty
-sudo: false
 language: node_js
-node_js:
-  - 8
-cache:
-  directories:
-    - node_modules
+
+node_js: 8
 branches:
   only:
     - master
     - /^greenkeeper/.*$/
-notifications:
-  email: false
-before_install:
-  - "npm i -g npm@latest"
-install:
-  - npm install
-before_script:
-  - npm prune
-after_success:
-  - npm run semantic-release
+    
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
