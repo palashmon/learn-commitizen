@@ -73,7 +73,7 @@
         "simple-git": "^1.65.0",
         "sinon": "^5.0.5",
         "style-loader": "^0.19.1",
-        "mocha": "~5.1.0",
+        "mocha": "~5.2.0",
         "semantic-release": "~15.4.1",
         "uuid": "~3.2.0",
         "webpack": "~4.6.0",
