@@ -1,7 +1,7 @@
 {
     "name": "learn-commitizen",
     "version": "0.0.0-development",
-    "description": "Learn more about Commitizen by practicing",
+    "description": "Learn more about Commitizen & Semantic Release by practicing",
     "main": "index.js",
     "scripts": {
         "start": "node app.js",
@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/palashmon/learn-commitizen.git"
     },
-    "keywords": ["learn", "commitizen", "practice"],
+    "keywords": ["learn", "commitizen", "practice", "semantic-release", "semantic"],
     "author": "Palash Mondal <palashm@live.in>",
     "license": "MIT",
     "bugs": {
@@ -41,7 +41,7 @@
         "mocha": "^5.2.0",
         "semantic-release": "^15.5.0",
         "uuid": "^3.2.0",
-        "webpack": "^4.8.3",
+        "webpack": "^4.11.0",
         "react": "^16.4.0",
         "react-dom": "^16.4.0",
         "redux": "^4.0.0",
