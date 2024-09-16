@@ -39,7 +39,7 @@
         "cz-conventional-changelog": "^3.0.0",
         "dirty-chai": "^2.0.1",
         "mocha": "^10.2.0",
-        "semantic-release": "^22.0.5",
+        "semantic-release": "^24.1.1",
         "uuid": "^9.0.0",
         "webpack": "5.94.0",
         "react": "^18.2.0",
