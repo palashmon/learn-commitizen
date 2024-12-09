@@ -42,7 +42,7 @@
         "semantic-release": "^22.0.5",
         "uuid": "^9.0.0",
         "webpack": "5.97.1",
-        "react": "^18.2.0",
+        "react": "^19.0.0",
         "react-dom": "^18.2.0",
         "redux": "^5.0.0",
         "create-react-app": "^5.0.1",
